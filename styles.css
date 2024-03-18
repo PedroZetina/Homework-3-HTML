@@ -1,0 +1,121 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+
+hr {
+    color: white;
+}
+ /*Titulo Principal*/ 
+.titulo-principal {
+    background-color: white;
+    font-size: 3em;
+    color: coral;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 35vw;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Iconos*/
+#margen-iconos {
+    margin-top: 2em;
+}
+
+.iconos-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+#iconos-letra {
+    color: white;
+}
+
+#iconos-letra:hover {
+    color: coral;
+}
+
+.iconos {
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: coral;
+    width: fit-content;
+    padding: 0.5em;
+    margin: auto;
+    transition: 1s;
+}
+
+.iconos:hover {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Articulos*/
+h2 {
+    font-size: 2em;
+    color: coral;
+    padding-left: 2em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+#goku-img {
+    width: 100px;
+    height: 100px;
+    padding-right: 2em;
+}
+
+.productos {
+    background-color: white;
+    border: 2px solid coral;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#article {
+    background-color: coral;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido {
+    color: white;
+    font-size: 1em;
+    padding-left: 2em;
+}
+
+.img-articulos {
+    width: 500px;
+    height: 400px;
+    border: 4px solid white;
+    
+}
+
+#img-articulosflex {
+    display: flex;
+    justify-content: center;
+}
+
+/*Footer*/
+footer {
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
